@@ -52,7 +52,6 @@ for (const page of pages) {
   <meta name="color-scheme" content="dark">
   <title>${page.title} | Richer Family Library</title>
   <link rel="icon" href="assets/monogram.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/cormorant-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
