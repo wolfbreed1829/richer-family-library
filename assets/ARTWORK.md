@@ -1,0 +1,7 @@
+# Library artwork
+
+`library.webp` is the homepage background. `library.jpg` is the social sharing image. Both are web-optimized copies of artwork generated with the built-in image-generation tool on November 11, 2026. No real family photograph or property is represented.
+
+## Final prompt
+
+Use case: photorealistic-natural. Asset type: panoramic background photograph for an elegant heritage-family library website. Create a cinematic, photorealistic old aristocratic private library with dark walnut bookcases filled with worn leather-bound volumes, a carved oak reading desk on the right, an open antique book, a small brass reading lamp softly glowing, a few aged handwritten letters. No people. Rich, authentic aged textures, beautiful quiet chiaroscuro light, very dark espresso and near-black shadows, muted warm antique gold highlights, no bright colors. Regal and intimate, like a centuries-old European private library. Composition: very wide landscape 16:9, bookshelves and lamp and desk concentrated on the right half, the left 45 percent is very dark shadowed library with very little detail, reserved for light webpage headline text added in HTML. Camera level, editorial architectural photography, real depth and subtly hazy golden light. No visible legible text, no typography, no logos, no borders, no watermarks. This is atmospheric illustrative artwork, not a photograph of a real Richer family location.

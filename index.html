@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11120f">
+  <meta name="description" content="The Richer Family Library. Photographs, writings, and family history.">
+  <meta property="og:title" content="Richer Family Library">
+  <meta property="og:description" content="Photographs, writings, and family history.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wolfbreed1829.github.io/richer-family-library/">
+  <meta property="og:image" content="https://wolfbreed1829.github.io/richer-family-library/assets/library.jpg">
+  <meta name="color-scheme" content="dark">
+  <title>Richer Family Library</title>
+  <link rel="icon" href="assets/monogram.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/library.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="assets/cormorant-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Richer Family Library home">
+      <img src="assets/monogram.svg" width="48" height="48" alt="">
+      <span class="brand-name">Richer<span>Family Library</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false"><span>Menu</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="./" aria-current="page">Home</a>
+      <a href="photographs.html">Photographs</a>
+      <a href="writings.html">Writings</a>
+      <a href="history.html">Family history</a>
+      <a href="about.html" class="nav-about">About</a>
+    </nav>
+  </header>
+  <main id="main" class="home-main">
+    <section class="hero" aria-labelledby="home-title">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span>The family archive</p>
+        <h1 id="home-title">Richer<br><span>Family Library</span></h1>
+        <div class="fine-rule" aria-hidden="true"></div>
+        <p class="hero-description">Photographs, writings, and family history.<br>Preserved for the generations to come.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="photographs.html">View photographs<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+          <a class="button button-outline" href="writings.html">Read writings<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+        </div>
+      </div>
+      <div class="hero-corner" aria-hidden="true"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© <span data-year>2026</span> Richer Family Library</span><span class="footer-note">A family record.</span></footer>
+</body>
+</html>

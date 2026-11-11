@@ -1,0 +1,11 @@
+{
+  "name": "richer-family-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Richer Family Library homepage and archive scaffold.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
