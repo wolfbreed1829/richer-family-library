@@ -27,10 +27,43 @@ navigation?.addEventListener('click', event => {
   if (event.target instanceof Element && event.target.closest('a')) closeMenu();
 });
 
-window.matchMedia('(min-width: 761px)').addEventListener('change', event => {
+window.matchMedia('(min-width: 901px)').addEventListener('change', event => {
   if (event.matches) closeMenu();
 });
 
 document.querySelectorAll('[data-year]').forEach(element => {
   element.textContent = String(new Date().getFullYear());
+});
+
+const scan = document.querySelector('#article-scan');
+const scanViewport = document.querySelector('#scan-viewport');
+const zoomButton = document.querySelector('.zoom-button');
+
+function resetScanZoom() {
+  scanViewport?.classList.remove('is-zoomed');
+  zoomButton?.setAttribute('aria-pressed', 'false');
+  if (zoomButton) zoomButton.textContent = 'Enlarge';
+  scanViewport?.scrollTo(0, 0);
+}
+
+document.querySelectorAll('[data-scan]').forEach(link => {
+  link.addEventListener('click', event => {
+    if (!scan || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    scan.src = link.getAttribute('href');
+    scan.alt = link.dataset.alt;
+    document.querySelector('#scan-original').href = link.getAttribute('href');
+    document.querySelectorAll('[data-scan]').forEach(item => item.removeAttribute('aria-current'));
+    link.setAttribute('aria-current', 'page');
+    document.querySelector('#scan-status').textContent = `Showing newspaper page ${link.dataset.page}`;
+    resetScanZoom();
+  });
+});
+
+zoomButton?.addEventListener('click', () => {
+  const enlarged = zoomButton.getAttribute('aria-pressed') !== 'true';
+  zoomButton.setAttribute('aria-pressed', String(enlarged));
+  zoomButton.textContent = enlarged ? 'Fit to screen' : 'Enlarge';
+  scanViewport?.classList.toggle('is-zoomed', enlarged);
+  scanViewport?.scrollTo(0, 0);
 });

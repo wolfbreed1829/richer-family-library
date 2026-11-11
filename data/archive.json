@@ -1,0 +1,82 @@
+{
+  "pictures": [
+    {
+      "id": "framed-portrait",
+      "title": "Framed portrait",
+      "date": null,
+      "dateLabel": "Date unknown",
+      "image": "assets/archive/pictures/framed-portrait.jpg",
+      "sourceFile": "WhatsApp Image6 2026-11-11 at 11.29.15 AM.jpeg",
+      "alt": "A framed black-and-white photograph of a woman standing outdoors.",
+      "position": "50% 50%"
+    },
+    {
+      "id": "flowering-plant",
+      "title": "Beside a flowering plant",
+      "date": null,
+      "dateLabel": "Date unknown",
+      "image": "assets/archive/pictures/flowering-plant.jpg",
+      "sourceFile": "WhatsApp Image5 2026-11-11 at 11.29.14 AM.jpeg",
+      "alt": "A photograph of a man and woman beside a tall flowering plant on rocky ground.",
+      "position": "50% 30%"
+    },
+    {
+      "id": "rocky-shore",
+      "title": "At the shore",
+      "date": null,
+      "dateLabel": "Date unknown",
+      "image": "assets/archive/pictures/rocky-shore.jpg",
+      "sourceFile": "WhatsApp Image4 2026-11-11 at 11.29.14 AM.jpeg",
+      "alt": "A photograph of three people seated on rocks beside the sea.",
+      "position": "50% 50%"
+    }
+  ],
+  "news": [
+    {
+      "id": "last-grizzly-bear",
+      "title": "Last grizzly bear of the Prairie?",
+      "publication": "Nipawin Bridge",
+      "date": "1997-09",
+      "dateLabel": "September 1997",
+      "pageRange": "2–4",
+      "contributor": "Barry Richer",
+      "letterAuthor": "Wilfrid Daniel Richer",
+      "letterYear": "1929",
+      "description": "A 1929 letter by Wilfrid Daniel Richer recounts a journey through the Saskatchewan woods and discusses accounts of grizzly bears on the Canadian Prairies. Contributed by Barry Richer.",
+      "pages": [
+        {
+          "number": 2,
+          "image": "assets/archive/news/last-grizzly-bear-page-2.jpg",
+          "sourceFile": "WhatsApp Image 2026-11-11 at 11.26.30 AM.jpeg",
+          "alt": "Nipawin Bridge, September 1997, page 2: article title, a photograph of Wilfrid Daniel Richer at a woodland camp, and the opening text."
+        },
+        {
+          "number": 3,
+          "image": "assets/archive/news/last-grizzly-bear-page-3.jpg",
+          "sourceFile": "WhatsApp Image1 2026-11-11 at 11.26.30 AM.jpeg",
+          "alt": "Nipawin Bridge, September 1997, page 3: continuation of Last grizzly bear of the Prairie?"
+        },
+        {
+          "number": 4,
+          "image": "assets/archive/news/last-grizzly-bear-page-4.jpg",
+          "sourceFile": "WhatsApp Image2 2026-11-11 at 11.26.31 AM.jpeg",
+          "alt": "Nipawin Bridge, September 1997, page 4: the article's conclusion and a biographical note about Wilfrid Daniel Richer."
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "id": "masson-parish-record",
+      "title": "Notre-Dame des Neiges de Masson",
+      "date": null,
+      "dateLabel": "Publication date unknown",
+      "source": "Souvenir paroissial de Notre-Dame des Neiges de Masson",
+      "page": 71,
+      "description": "A parish history page with portraits of clergy and photographs of early parish buildings. Wilfrid Daniel Richer is listed as parish priest for 1896–1897.",
+      "image": "assets/archive/history/masson-parish-record.jpg",
+      "sourceFile": "WhatsApp Image3 2026-11-11 at 11.29.13 AM.jpeg",
+      "alt": "Page 71 of a Notre-Dame des Neiges de Masson parish souvenir, showing clergy portraits, names, service dates, and photographs of historic parish buildings."
+    }
+  ]
+}
